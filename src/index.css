@@ -1,13 +1,119 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+ 
+  margin: 1rem ;
+  border-radius: 20px;
+  background: #b3b3b367;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.App_header ul {
+  display: flex;
+  gap: 2rem;
+
+}
+
+li {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 12px;
+  color: #575757;
+  list-style: none;
+}
+
+.burger{
+  background: rgb(75, 75, 75);
+  width: 50px;
+  padding: 4px;
+
+  border-radius: 5px;
+}
+
+.div{
+  z-index: 555;
+  border-radius: 5px;
+  height: 5px;
+  margin: 4px;
+  background: #ffffff;
+}
+.aside_none{
+  position: absolute;
+  left: -100%;
+  transition: 300ms;
+  width: 400px;
+  height: 800px;
+  background-color: #b3b3b367   ;
+  
+}
+.aside{
+  padding: 1rem;
+  margin: 1rem;
+  position: absolute;
+  left: 0;
+  transition: 300ms;
+  width: 400px;
+  height: 800px;
+  background-color: #dddddd;
+ border-radius:  20px  ;
+ box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.329);
+}
+
+.blok{
+  margin: 1rem;
+  
+}
+.blok p{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.blockes{
+  width: 100%;
+
+  border-radius: 20px;
+
+  padding: 1rem;
+ 
+  justify-content: space-between;
+}
+.blockes div{
+background: #8a8a8a;
+margin: 1rem;
+padding: 1rem;
+border-radius: 1rem;
+}
+main{
+  display: flex;
+}
+.image{
+  width: 500px;
+  height: 500px;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+.more{
+  display: flex;
+}
+.image_blok{
+border: 2px dashed white;
+color: rgb(255, 255, 255);
+font-size: 1.3rem;
+
 }
